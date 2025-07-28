@@ -28,7 +28,7 @@ const Hero = () => {
       </div>
 
       <div className='shutter shutter-left overflow-hidden'>
-        <h1 ref={heroHeadline1Ref}>3D | Full Sack Developer</h1>
+        <h1 className="section-title" ref={heroHeadline1Ref}>Software Developer</h1>
       </div>
 
       <div className='circle-left'></div>

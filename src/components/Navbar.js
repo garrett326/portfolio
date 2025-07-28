@@ -9,8 +9,6 @@ const Navbar = ({ footerNav }) => {
   const link4Ref = useRef(null);
   const link5Ref = useRef(null);
   const link6Ref = useRef(null);
-  const link7Ref = useRef(null);
-  const link8Ref = useRef(null);
 
   const links = [
     link1Ref,
@@ -19,55 +17,54 @@ const Navbar = ({ footerNav }) => {
     link4Ref,
     link5Ref,
     link6Ref,
-    link7Ref,
-    link8Ref,
   ];
 
   useLinkReveal(links, 2);
 
   return (
     <nav
-      className={`navbar container mx-auto flex justify-between ${
-        footerNav ? "mt-40" : "mt-20"
-      } uppercase`}
+      className={`navbar container mx-auto flex justify-between ${footerNav ? "mt-40" : "mt-20"
+        } uppercase`}
     >
       <div className='logo flex flex-col gap-5'>
         <HashLink smooth to='#home' className='link-item' ref={link1Ref}>
           {footerNav ? "Go to top" : "Ruslan Danyliuk!"}
         </HashLink>
         {footerNav && (
-          <div className='bg-[#f7f7f7] p-3 rounded-lg' ref={link8Ref}>
-            <a
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img
-                alt='Trustpilot Logo'
-                className='w-32'
-              />
-            </a>
-          </div>
+          // <div className='bg-[#000000] p-3 rounded-lg' ref={link8Ref}>
+          //   <a
+          //     target='_blank'
+          //     rel='noreferrer'
+          //   >
+          //     <img
+          //       alt='Trustpilot Logo'
+          //       className='w-32'
+          //       src="/assets/up-arrow.png"
+          //     />
+          //   </a>
+          // </div>
+          <div></div>
         )}
       </div>
       <ul className='menus flex flex-col gap-3 sm:w-[170px] w-[100px]'>
         <li className='self-start'>
-          <HashLink smooth to='/' className='link-item' ref={link2Ref}>
+          <HashLink smooth to='#home' className='link-item' ref={link2Ref}>
             Home
           </HashLink>
         </li>
         <li className='self-end'>
-          <HashLink smooth to='/projects' className='link-item' ref={link3Ref}>
-            My Projects
+          <HashLink smooth to='#about' className='link-item' ref={link3Ref}>
+            About Me
           </HashLink>
         </li>
         <li className='self-start'>
-          <HashLink smooth to='#skills' className='link-item' ref={link4Ref}>
-            My Skills
+          <HashLink smooth to='#projects' className='link-item' ref={link4Ref}>
+            My Projects
           </HashLink>
         </li>
         <li className='self-end'>
-          <HashLink smooth to='#about' className='link-item' ref={link5Ref}>
-            About Me
+          <HashLink smooth to='#skills' className='link-item' ref={link5Ref}>
+            My Skills
           </HashLink>
         </li>
         <li className='self-start'>
@@ -75,17 +72,7 @@ const Navbar = ({ footerNav }) => {
             Contact Me
           </HashLink>
         </li>
-        <li className='self-end'>
-          <a
-            href='https://drive.google.com/'
-            target='_blank'
-            rel='noreferrer'
-            className='link-item'
-            ref={link7Ref}
-          >
-            My Resume
-          </a>
-        </li>
+
       </ul>
     </nav>
   );

@@ -28,22 +28,24 @@ const Socials = () => {
   useSocialReveal(socialRef, 2.5);
 
   return (
-    <div
-      className='socials flex gap-5 uppercase text-lg fixed left-10 top-[75%] origin-left -rotate-90 text-white/30 bg-black/30 p-5 backdrop-blur-xl z-[200]'
-      ref={socialRef}
-    >
-      {data.map((social) => (
-        <a
-          key={social.id}
-          href={social.url}
-          target='_blank'
-          rel='noreferrer'
-          className='hover:text-cyan-400 duration-500'
-        >
-          {social.title}
-        </a>
-      ))}
-    </div>
+    // <div
+    //   className='socials flex gap-5 uppercase text-lg fixed left-10 top-[75%] origin-left -rotate-90 text-white/30 bg-black/30 p-5 backdrop-blur-xl z-[200]'
+    //   ref={socialRef}
+    // >
+    //   {data.map((social) => (
+    //     <a
+    //       key={social.id}
+    //       href={social.url}
+    //       target='_blank'
+    //       rel='noreferrer'
+    //       className='hover:text-cyan-400 duration-500'
+    //     >
+    //       {social.title}
+    //     </a>
+    //   ))}
+    // </div>
+    <>
+    </>
   );
 };
 

@@ -4,138 +4,108 @@ import SectionTitle from "./SectionTitle";
 const data = [
   {
     id: 1,
-    title: "Three JS visualizations, a spider web style graph",
+    title: "AI-Powered Medical Exam Platform",
     image1:
-      "https://res.cloudinary.com/de67hpfac/image/upload/v1739924886/1-1_llchsu.png",
+      "/assets/portfolio/1-1.png",
     image2:
-      "https://res.cloudinary.com/de67hpfac/image/upload/v1739932762/1-2_vsawlk.png",
+      "/assets/portfolio/1-2.png",
     description:
-      "In this project, I've ventured into the realm of captivating web visualizations using a range of cutting-edge technologies and libraries. The visualizations presented here showcase my proficiency and creativity in web development and interactive design.Spider Web Style Graph: This mesmerizing visualization takes inspiration from a spider's intricate web. Through the power of Three.js and WebGL, I've crafted a dynamic and responsive graph that weaves connections between nodes, creating an engaging and visually appealing web of data.",
+      "Contributed to the development of the platform  that provides a chat-bot for exam emulation for medical students. On the backend, I built scalable APIs with Django and Django REST Framework, optimizing data retrieval for smooth interactions with a PostgreSQL database. For the frontend, I used React and Redux to create dynamic, mobile-friendly interfaces. I also integrated PayPal and Stripe for secure payments and used Amazon ECS for efficient containerized deployments. Also, I implemented unit tests, achieving 80% test coverage to ensure reliable, bug-free code",
     tools: [
-      "Three.js",
-      "WebGL",
-      "Next.js",
+      "Python",
+      "Django",
+      "Langchain",
+      "PostgreSQL",
       "React.js",
-      "P5.js",
       "Tailwind CSS",
     ],
-    liveLink: "https://learnify-pro.vercel.app",
+    liveLink: "https://www.oscer.ai/",
     fullStackLink: "",
-    frontEndLink: "https://editor.p5js.org/Mzr/full/Js7L1xwoH",
+    frontEndLink: "",
     backEndLink: "",
   },
   {
     id: 2,
-    title: "Brain data visualization. Three.js, React, Node.js, Puppeteer",
+    title: "Interactive 3D Garden Room Configurator",
     image1:
-      "https://res.cloudinary.com/de67hpfac/image/upload/v1739932815/21_uzbqaq.png",
+      "/assets/portfolio/2-1.png",
     image2:
-      "https://res.cloudinary.com/de67hpfac/image/upload/v1739932888/23_yy9r6u.png",
+      "/assets/portfolio/2-2.png",
     description:
-      "Developed a platform to predict brain responses to impacts and overpressure, featuring interactive 3D visualizations, tools, and charts. Used Three.js and Chart.js for high-performance frontend data visualization and built dashboards for heavy datasets. On the backend, leveraged Node.js, Puppeteer, and Three.js on AWS Lambda to generate clinical images. Also created a mouthguard configurator, acting as a sensor for the next phase of the project.",
+      "Built an interactive 3D garden room configurator that enables users to design custom garden buildings in real-time. On the backend, I built robust APIs using Node.js and Express, managing configuration data and ensuring smooth communication with a MongoDB database. On the frontend, I used React and React Three Fiber to create a visually rich, drag-and-drop 3D design interface that works seamlessly across desktop and mobile. I implemented dynamic pricing logic, real-time dimension validation, and embedded export features to support quoting and order submissions. Additionally, I optimized rendering performance for large 3D models and deployed the platform using Docker and AWS Fargate for scalable, container-based infrastructure.",
     tools: [
       "Node.js",
       "Three.js",
-      "Puppeteer",
-      "Chart.js",
       "React.js",
+      "React-three-fiber",
+      "MongoDB",
+      "Docker",
     ],
-    liveLink: "https://learnify-pro.vercel.app",
-    fullStackLink: "https://github.com/Ruslan845/learnify",
+    liveLink: "https://gardenroomplanner.com/app",
+    fullStackLink: "",
     frontEndLink: "",
     backEndLink: "",
   },
   {
     id: 3,
-    title: "Learnify: An Online Learning Platform",
+    title: "Food Delivery Website",
     image1:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1692032065/Personal%20Portfolio/learnify-1_gybje8.png",
+      "/assets/portfolio/3-1.png",
     image2:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1692032065/Personal%20Portfolio/learnify-2_oneneu.png",
+      "/assets/portfolio/3-2.png",
     description:
-      "Experience a transformative online learning journey with Learnify, The cutting-edge Next.js app! Explore a diverse range of courses, engage with interactive lessons, and embrace a seamless user experience. With Learnify, acquiring new skills and knowledge has never been easier. Join us today and unlock the full potential of your learning endeavors.",
+      "Developed the delivery website that connected customers with food companies, available them to order food from the comfort of their homes. I used React for the front end, creating a robust and responsive application, and Node.js and Express.js for the back end I implemented Redux , to optimize the website's performance and data flow between components. To ensure a secure environment for users, I designed and implemented a user authentication system. I also developed a payment processing system by integrating multiple payment gateways, smooth and secure transactions for users. This approach not only improved user experience but also boosted customer trust and satisfaction with the platform",
     tools: [
       "Next.js",
       "React.js",
-      "MongoDB",
+      "PostgreSQL",
       "Stripe",
       "Prisma",
       "GCP",
       "Tailwind CSS",
-      "AOS",
     ],
-    liveLink: "https://learnify-pro.vercel.app",
-    fullStackLink: "https://github.com/Ruslan845/learnify",
+    liveLink: "https://deliveroo.co.uk/",
+    fullStackLink: "",
     frontEndLink: "",
     backEndLink: "",
   },
   {
     id: 4,
-    title: "Proxima: Project Management Web Application",
+    title: "Online Rental Portal Booking System",
     image1:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1679669817/Personal%20Portfolio/proxima-one_rzufpn.png",
+      "/assets/portfolio/4-1.png",
     image2:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1679669817/Personal%20Portfolio/proxima-two_zrwmos.png",
+      "/assets/portfolio/4-2.png",
     description:
-      "Proxima is a project management application built using the MERN stack. The application allows users to create, update, and delete their own projects with ease. Proxima is designed with high-level security in mind, featuring strong JWT authentication and front-end route protection to ensure the safety and privacy of user data.",
+      "Developed the online search portal for rentals platform. My roles involved implementing the core search functionalities for various types of accommodations, such as hotels, villas, houses, and resorts, using React for the front end and Next.js for server-side rendering. In this role, I also implemented the development of a multi-language system on the front end and ensuring a smooth user experience across different language settings. Also, I developed REST APIs for new features, ensuring seamless integration with the front end, and created administration portals to efficiently manage the main database information. Through these efforts, I contributed in improving the functionality and performance of the online rental portal",
     tools: [
       "React.js",
       "Tailwind CSS",
       "Node.js",
       "Express.js",
-      "MongoDB",
+      "PostgreSQL",
       "JWT",
     ],
-    liveLink: "https://proxima-application.netlify.app",
-    fullStackLink: "",
-    frontEndLink: "https://github.com/Ruslan845/proxima-client",
-    backEndLink: "https://github.com/Ruslan845/proxima-server",
-  },
-  {
-    id: 5,
-    title: "Tech Alpha: Online Electronics Accessories Store",
-    image1:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1675615229/Personal%20Portfolio/tech-alpha-1_lgzxvt.png",
-    image2:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1675615227/Personal%20Portfolio/tech-alpha-2_tlagyh.png",
-    description:
-      "Tech Alpha is an online electronic accessories store that offers the latest and greatest electronic accessories. Our website features a clean, modern design, an easy-to-use interface and a robust shopping functionality built using Redux.js. All the product data has been served via JSON server and fetched using Axios.",
-    tools: ["React.js", "Tailwind CSS", "Redux.js", "Redux Toolkit", "Axios"],
-    liveLink: "https://tech-alpha.netlify.app",
-    fullStackLink: "",
-    frontEndLink: "https://github.com/Ruslan845/tech-alpha",
-    backEndLink: "https://github.com/Ruslan845/tech-alpha-server",
-  },
-  {
-    id: 6,
-    title: "Foodverse: A Recipe Finder Web Application",
-    image1:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1675615230/Personal%20Portfolio/foodverse-1_mkf88w.png",
-    image2:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1675615230/Personal%20Portfolio/foodvarse-2_qekgne.png",
-    description:
-      "Foodverse is a recipe web application, where a user can search for a variety of recipes and find the ingredients and quantities needed to make each recipe item. Also, favorite recipe items can be saved in the browser's local storage. It is easy to find different recipes for vegetarians and meat eaters, as well as those who want to lose weight.",
-    tools: ["React.js", "React Router", "Tailwind CSS"],
-    liveLink: "https://food-verse.netlify.app/",
-    fullStackLink: "",
-    frontEndLink: "https://github.com/Ruslan845/foodverse",
-    backEndLink: "",
-  },
-  {
-    id: 7,
-    title: "ills and deliverables",
-    image1:
-      "https://res.cloudinary.com/de67hpfac/image/upload/v1739932977/3_pgbf9p.png",
-    image2:
-      "https://res.cloudinary.com/de67hpfac/image/upload/v1739932977/3_pgbf9p.png",
-    description:
-      "The 3D avatar web app is an interactive application built using React.js that allows users to create and customize their own 3D avatars. The app provides a virtual environment where users can design and personalize their avatars' appearance, including facial features, hairstyles, clothing, and accessories.Upon launching the web app, users are presented with a visually appealing interface that showcases a 3D avatar model. The avatar can be rotated and viewed from different angles using intuitive mouse or touch controls. The app provides a wide range of customization options, allowing users to select from various hairstyles, facial features like eyes, nose, and mouth, and a diverse selection of clothing items and accessories.",
-    tools: ["React.js", "React Router", "Tailwind CSS","JavaScript","3D modelling" ],
-    liveLink: "https://fir-chat-97c62.web.app/avatarconfig",
+    liveLink: "https://www.vacationrenter.com/",
     fullStackLink: "",
     frontEndLink: "",
     backEndLink: "",
   },
+  {
+    id: 5,
+    title: "Jersey Configurator",
+    image1:
+      "/assets/portfolio/5-1.png",
+    image2:
+      "/assets/portfolio/5-2.png",
+    description:
+      "I contributed to the development of the GlobalTech Jersey e-commerce platform, which specializes in customized sports apparel. On the backend, I built RESTful APIs using Node.js and Express, ensuring high performance and scalability, with Firebase as the primary database for managing product and order data. For the frontend, I implemented a responsive, interactive UI using React and Tailwind CSS, enabling a smooth and modern shopping experience. I integrated Shopify storefront API and Stripe for secure checkout and payments. Additionally, I configured Netlify CI/CD pipelines for seamless deployments and implemented Jest-based unit tests, maintaining over 80% test coverage to guarantee stable and maintainable code.",
+    tools: ["React.js", "Three.js", "Shopify", "Redux Toolkit", "Firebase"],
+    liveLink: "https://globaltech-jersey.netlify.app/",
+    fullStackLink: "",
+    frontEndLink: "",
+    backEndLink: "",
+  }
 ];
 
 const Projects = () => {

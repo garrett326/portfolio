@@ -24,8 +24,7 @@ const About = () => {
         <div className='about-left' ref={aboutLeftRef}></div>
         <div className='about-right' ref={aboutRightRef}>
           <p>
-            Welcome to my portfolio! I'm a Senior Web Developer, and I've been building web applications for over five years now. I really love creating cool stuff online. I'm especially passionate about using React and Three.js to make websites that are fast, look amazing, and really grab your attention. I've built everything from those quick, simple single-page applications, all the way to super interactive 3D web experiences that really push the boundaries. Three.js is my go-to for creating stunning visuals and letting people interact with websites in really unique ways.
-
+            Welcome to my portfolio! I’m a Senior Software Developer with over 7 years of experience building high-performance web applications. My core focus is backend development and AI—designing scalable APIs, integrating machine learning models, and building intelligent systems that drive real business results. I also bring strong frontend capabilities to the table, especially when it comes to creating engaging, interactive experiences. I use React and Three.js to develop visually stunning interfaces, from lightweight single-page apps to immersive 3D environments. Three.js is my tool of choice for pushing creative boundaries on the web, while my backend and AI work ensures every project is fast, efficient, and smart behind the scenes.
           </p>
           <h3 className='mt-10'><i>Why choose me?</i></h3>
           <p >

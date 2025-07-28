@@ -127,13 +127,31 @@ button {
   position: relative;
 }
 
-.hero-image,
-.project-right,
+.hero-image {
+  width: 500px;
+  height: 250px;
+  overflow: hidden;
+}
+
 .about-left {
   width: 500px;
   height: 500px;
   overflow: hidden;
 }
+
+.project-right {
+  width: 550px;
+  height: 450px;
+  object-fit: screen;
+  overflow: hidden;
+}
+
+/* .playwrite-au-qld-font {
+  font-family: "Playwrite AU QLD", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
 
 .noise {
   background-image: url("./assets/images/noise.gif");
@@ -194,7 +212,7 @@ button {
 }
 
 .section-title {
-  font-size: 10vw;
+  font-size: 5vw;
   line-height: 1;
   font-family: "DM Serif Text", serif;
 }
